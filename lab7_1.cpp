@@ -9,3 +9,4 @@ int main() {
     std::cout << "output: " << output << "\n";
     return 0;
 }
+//output: 12
