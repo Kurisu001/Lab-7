@@ -2,10 +2,10 @@
 
 
 int main() {
-    int a  =  20,b = 30;
-    int c = 4, output;
+    int a  =  20.0,b = 30,c = 4;
+    float output;
 
-    output = double(a) - double(b)/c;
+    output = a - double(b)/c;
     std::cout << "output: " << output << "\n";
     return 0;
 }
